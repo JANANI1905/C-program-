@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int a,j;
+    printf("Enter the number : ");
+    scanf("%d",&a);
+    j=pow(a,2);
+    printf("The power of %d is %d",a,j);
+}
